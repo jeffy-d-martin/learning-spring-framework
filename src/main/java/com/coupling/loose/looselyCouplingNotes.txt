@@ -1,0 +1,6 @@
+loosely coupling :
+  on here the code were loosely dependent on each other , on future of you need changing the database there should be the less amount of the
+  line should need to edit or modfiy
+
+  for here in give programe i just add the database and change the object creation . there is no
+  other modification
