@@ -1,0 +1,1 @@
+On here the object which was created by the Spring Container which was called as Bean through the technique called Invesion of Control

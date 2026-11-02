@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6cb7fb1-f97a-4bef-8478-c610fcac2c41" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coupling/loose/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coupling/loose/DatabaseManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coupling/loose/LooselyCoupling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coupling/loose/MongoDBDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coupling/loose/MySqlDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coupling/loose/looselyCouplingNotes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beancreation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beancreation/MyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationBeanContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +52,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "Application.TightCoupling.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -76,5 +75,20 @@
       <updated>1793598417440</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/beancreation/Main.java</url>
+          <line>6</line>
+          <properties class="com.beancreation.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
