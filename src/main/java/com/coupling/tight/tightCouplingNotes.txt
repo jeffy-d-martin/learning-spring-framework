@@ -1,0 +1,10 @@
+tight coupling :
+     which means the code were tightly dependent on each other . for future if you are changing the database or anything
+     you need to make lot of the changes in the application .
+
+     it was not recommed in the software application
+
+     for here give example :
+        if i change the database from mySql to any other like mongoDB , etc
+        you need to changes databaseManger also
+        it was samll example if the large base code it will make use ragebit
