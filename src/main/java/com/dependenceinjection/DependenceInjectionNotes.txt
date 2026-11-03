@@ -1,0 +1,1 @@
+Giving an object the things it needs to do its work.
