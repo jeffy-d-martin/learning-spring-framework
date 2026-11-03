@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id = "MySql" class="com.couplingusingspring.coupling.loose.MySqlDatabase"></bean>
+    <bean id = "mongoDB" class="com.couplingusingspring.coupling.loose.MongoDBDatabase"></bean>
+    <bean id = "Databasemanager" class="com.couplingusingspring.coupling.loose.DatabaseManager">
+        <constructor-arg ref="mongoDB"></constructor-arg>
+    </bean>
+</beans>
